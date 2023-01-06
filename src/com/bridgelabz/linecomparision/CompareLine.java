@@ -14,6 +14,7 @@ public class CompareLine {
         y1=scan.nextInt();
         System.out.println("enter y2 point");
         y2=scan.nextInt();
+        //return the sq root of no
         double line1=Math.sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1));
 
         System.out.println(line1);
